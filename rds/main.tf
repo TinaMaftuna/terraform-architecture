@@ -2,7 +2,7 @@ data "terraform_remote_state" "vpc" {
   backend = "remote"
 
   config = {
-    organization = "mtojiboeva2"
+    organization = "TinaMaftuna"
     workspaces = {
       name = "vpc"
     }
